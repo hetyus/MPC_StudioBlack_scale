@@ -26,6 +26,9 @@ Aeolian
 Locrian
 Chromatic
 
+Relevant string in ASCII:
+Relevant string in Hex:
+
 **Corrected (patched order, matching actual software behaviour):**
 Chromatic
 Major
@@ -36,6 +39,10 @@ Lydian
 Mixolydian
 Aeolian
 Locrian
+
+
+Relevant string in ASCII:
+Relevant string in Hex:
 
 > **Important:** Each string must keep its original length in bytes.  
 > If a replacement name is shorter, pad with spaces (UTF-16LE: `20 00`).  
