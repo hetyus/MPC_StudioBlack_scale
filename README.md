@@ -14,39 +14,77 @@ This patch corrects the issue by overwriting the relevant scale name table insid
 6. Save the file and restart MPC Software.
 7. The MPC Studio Black LCD should now display the correct scale names.
 
-## DRAFT!!!: Scale name order (before / after)
+## Scale name order (before / after)
 **Original (as stored in `MPC.exe`, wrong for Studio Black LCD):**
+
 Major
-Minor
+Natural Minor
+Harmonic Minor
+Pentatonic Major
+Pentatonic Minor
+Blues
+Flamenco
+Gypsy
+Hungarian Gypsy
+Persian
+Major Bebop
+Whole Tone
+Chromatic
 Dorian
 Phrygian
 Lydian
 Mixolydian
 Aeolian
 Locrian
-Chromatic
-
-Relevant string in ASCII:
-Relevant string in Hex:
 
 **Corrected (patched order, matching actual software behaviour):**
+
 Chromatic
 Major
-Minor
+Natural Minor
+Harmonic Minor
+Pentatonic Major
+Pentatonic Minor
 Dorian
 Phrygian
 Lydian
 Mixolydian
 Aeolian
 Locrian
+Blues
+Flamenco
+Gypsy
+Hungarian Gypsy
+Persian
+Major Bebop
+Whole Tone
 
+-> Corrected, with shorted text to match stirng length:
 
-Relevant string in ASCII:
-Relevant string in Hex:
+Chrom
+Major
+Natural Minor
+Harmonic Minor
+Pentatonic Major
+PenMi
+Dorian
+Phryg
+Lydian
+Mixolyd
+Aeolian
+Locrian
+Blues
+Flamen
+Gypsy
+HGypsy
+Persian
+MjBebop
+WhoTone
 
 > **Important:** Each string must keep its original length in bytes.  
 > If a replacement name is shorter, pad with spaces (UTF-16LE: `20 00`).  
 > Do not shift the null terminator (`00 00`) or change record boundaries.
+> String betweeen address 01e4d310 and 01e4d3d0
 
 ⚠️ **Disclaimer**  
 This patch is unofficial and not supported by AKAI. Use at your own risk. Always make a backup of your original `MPC.exe` before applying any changes. The author(s) take no responsibility for data loss, malfunction, or other issues.
