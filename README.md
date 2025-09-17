@@ -59,25 +59,25 @@ Persian<br>
 Major Bebop<br>
 Whole Tone<br>
 
--> Corrected, with shorted text to match string length:
+-> Corrected, with shorted and space (here marked with "_" to be visible) text to match string length:
 
 Chrom<br>
-Major<br>
-Natural Minor<br>
-Harmonic Minor<br>
+Major________<br>
+Natural Minor_<br>
+Harmonic Minor__<br>
 Pentatonic Major<br>
 PenMi<br>
-Dorian<br>
+Dorian__<br>
 Phryg<br>
-Lydian<br>
+Lydian_________<br>
 Mixolyd<br>
-Aeolian<br>
-Locrian<br>
-Blues<br>
+Aeolian____<br>
+Locrian___<br>
+Blues____<br>
 Flamen<br>
-Gypsy<br>
+Gypsy___<br>
 HGypsy<br>
-Persian<br>
+Persian___<br>
 MjBebop<br>
 WhoTone<br>
 
