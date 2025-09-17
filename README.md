@@ -59,7 +59,7 @@ Persian<br>
 Major Bebop<br>
 Whole Tone<br>
 
--> Corrected, with shorted and space (here marked with "_" to be visible) text to match string length:
+-> Corrected, with abbrevation and spaces (here marked with "_" to be visible) to match the original string length:
 
 Chrom<br>
 Major________<br>
