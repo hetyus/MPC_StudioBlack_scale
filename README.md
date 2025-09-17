@@ -17,69 +17,69 @@ This patch corrects the issue by overwriting the relevant scale name table insid
 ## Scale name order (before / after)
 **Original (as stored in `MPC.exe`, wrong for Studio Black LCD):**
 
-Major
-Natural Minor
-Harmonic Minor
-Pentatonic Major
-Pentatonic Minor
-Blues
-Flamenco
-Gypsy
-Hungarian Gypsy
-Persian
-Major Bebop
-Whole Tone
-Chromatic
-Dorian
-Phrygian
-Lydian
-Mixolydian
-Aeolian
-Locrian
+Major<br>
+Natural Minor<br>
+Harmonic Minor<br>
+Pentatonic Major<br>
+Pentatonic Minor<br>
+Blues<br>
+Flamenco<br>
+Gypsy<br>
+Hungarian Gypsy<br>
+Persian<br>
+Major Bebop<br>
+Whole Tone<br>
+Chromatic<br>
+Dorian<br>
+Phrygian<br>
+Lydian<br>
+Mixolydian<br>
+Aeolian<br>
+Locrian<br>
 
 **Corrected (patched order, matching actual software behaviour):**
 
-Chromatic
-Major
-Natural Minor
-Harmonic Minor
-Pentatonic Major
-Pentatonic Minor
-Dorian
-Phrygian
-Lydian
-Mixolydian
-Aeolian
-Locrian
-Blues
-Flamenco
-Gypsy
-Hungarian Gypsy
-Persian
-Major Bebop
-Whole Tone
+Chromatic<br>
+Major<br>
+Natural Minor<br>
+Harmonic Minor<br>
+Pentatonic Major<br>
+Pentatonic Minor<br>
+Dorian<br>
+Phrygian<br>
+Lydian<br>
+Mixolydian<br>
+Aeolian<br>
+Locrian<br>
+Blues<br>
+Flamenco<br>
+Gypsy<br>
+Hungarian Gypsy<br>
+Persian<br>
+Major Bebop<br>
+Whole Tone<br>
 
 -> Corrected, with shorted text to match string length:
 
-Chrom
-Major
-Natural Minor
-Harmonic Minor
-Pentatonic Major
-PenMi
-Dorian
-Phryg
-Lydian
-Mixolyd
-Aeolian
-Locrian
-Blues
-Flamen
-Gypsy
-HGypsy
-Persian
-MjBebop
-WhoTone
+Chrom<br>
+Major<br>
+Natural Minor<br>
+Harmonic Minor<br>
+Pentatonic Major<br>
+PenMi<br>
+Dorian<br>
+Phryg<br>
+Lydian<br>
+Mixolyd<br>
+Aeolian<br>
+Locrian<br>
+Blues<br>
+Flamen<br>
+Gypsy<br>
+HGypsy<br>
+Persian<br>
+MjBebop<br>
+WhoTone<br>
 
 > **Important:** Each string must keep its original length in bytes.  
 > If a replacement name is shorter, pad with spaces (UTF-16LE: `20 00`).  
