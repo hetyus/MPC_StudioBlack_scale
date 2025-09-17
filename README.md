@@ -17,25 +17,25 @@ This patch corrects the issue by overwriting the relevant scale name table insid
 ## Scale name order (before / after)
 **Original (as stored in `MPC.exe`, wrong for Studio Black LCD):**
 
-Major
-Natural Minor
-Harmonic Minor
-Pentatonic Major
-Pentatonic Minor
-Blues
-Flamenco
-Gypsy
-Hungarian Gypsy
-Persian
-Major Bebop
-Whole Tone
-Chromatic
-Dorian
-Phrygian
-Lydian
-Mixolydian
-Aeolian
-Locrian
+Major.
+Natural Minor.
+Harmonic Minor.
+Pentatonic Major.
+Pentatonic Minor.
+Blues.
+Flamenco.
+Gypsy.
+Hungarian Gypsy.
+Persian.
+Major Bebop.
+Whole Tone.
+Chromatic.
+Dorian.
+Phrygian.
+Lydian.
+Mixolydian.
+Aeolian.
+Locrian.
 
 **Corrected (patched order, matching actual software behaviour):**
 
