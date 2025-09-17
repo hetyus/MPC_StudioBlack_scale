@@ -59,7 +59,7 @@ Persian
 Major Bebop
 Whole Tone
 
--> Corrected, with shorted text to match stirng length:
+-> Corrected, with shorted text to match string length:
 
 Chrom
 Major
